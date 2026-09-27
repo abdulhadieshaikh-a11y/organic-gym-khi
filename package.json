@@ -1,0 +1,15 @@
+{
+  "name": "organic-fitness-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static website for Organic Fitness Studio",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0"
+  },
+  "dependencies": {
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "vite": "^8.3.1"
+  }
+}
