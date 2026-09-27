@@ -4,10 +4,8 @@
   "private": true,
   "description": "Static website for Organic Fitness Studio",
   "scripts": {
-    "dev": "vite --host 0.0.0.0"
-  },
-  "dependencies": {
-    "request": "^2.88.2"
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build"
   },
   "devDependencies": {
     "vite": "^8.3.1"

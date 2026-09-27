@@ -2,11 +2,11 @@
 
 A premium, editorial single-page website for **Organic Fitness Studio**, Khayaban-e-Nishat Lane, DHA Phase 6, Karachi.
 
-Pure HTML / CSS / vanilla JS. Vite serves the site locally; there is no build step.
+Pure HTML / CSS / vanilla JS, built with Vite for deployment.
 
 ## Run it
 
-Run `npm install` once, then `npm run dev` and visit the local URL printed in the terminal. You can also open `index.html` directly.
+Run `npm install` once, then `npm run dev` and visit the local URL printed in the terminal. Run `npm run build` to create the production site in `dist/`.
 
 Deploy by uploading the folder to any static host (Netlify, Vercel, Cloudflare Pages, GitHub Pages, cPanel).
 
