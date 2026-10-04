@@ -346,4 +346,6 @@
   /* ---------- Year ---------- */
   var y = $('[data-year]');
   if (y) y.textContent = new Date().getFullYear();
+
+  document.documentElement.classList.add('js');
 })();

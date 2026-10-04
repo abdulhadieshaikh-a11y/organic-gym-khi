@@ -41,9 +41,7 @@
   <link rel="stylesheet" href="assets/css/premium.css">
 
   <script>
-    /* Runs before any image loads: marks JS support and catches image errors
-       (img errors don't bubble, so we listen in the capture phase). */
-    document.documentElement.classList.add('js');
+    /* Catches image errors before any image loads (img errors don't bubble). */
     (function () {
       var pool = ['1534438327276-14e5300c3a48','1571019613454-1cb2f99b2d8b','1517836357463-d25dfeac3438',
                   '1540497077202-7c8a3999166f','1581009146145-b5ef050c2e1e','1571902943202-507ec2618e8f',
